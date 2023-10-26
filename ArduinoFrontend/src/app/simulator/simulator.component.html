@@ -344,14 +344,19 @@
             <i style="font-size: 18px;color: #fff;" class="fa fa-file-export"></i>
         </button>
 
-        <button mat-icon-button matTooltip="Properties" id="openButton">
+        <!--<button mat-icon-button matTooltip="Properties" id="openButton">
             <i style="font-size: 18px;color: #fff;" class="fa fa-info active"></i>
+        </button>---------------->
+
+        <button mat-icon-button matTooltip="Code" (click)="togglePropertyBoxDiv()"
+            [style.background-color]="togglePropertybox ? 'transparent' : '#212121'" [style.border-radius]="'6px'">
+            <i style="font-size: 18px;color: #fff;" class="fa fa-info"></i>
         </button>
 
     </div>
 
     <div
-        style="display: flex; align-items: flex-end; justify-content: flex-end; margin-top: 260px; flex-direction: column; position: sticky;">
+        style="display: flex; align-items: flex-end; justify-content: flex-end; margin-top: 260px; flex-direction: column; position: sticky; margin-left: 40px;">
         <button mat-icon-button matTooltip="Auto-arrange wires" (click)="autoLayout()">
             <i style="font-size: 18px;color: #fff;"
                 [ngClass]="{'fa fa-magic': !isAutoLayoutInProgress, 'fas fa-spinner fa-spin': isAutoLayoutInProgress}"></i></button>
@@ -368,7 +373,6 @@
 
         <button mat-icon-button matTooltip="Save Project" (click)="SaveProject()">
             <i style="font-size: 18px;color: #fff;" class="fa fa-cloud"></i>
-
 
         </button>
 

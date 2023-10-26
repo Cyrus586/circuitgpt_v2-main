@@ -120,7 +120,9 @@
   border-radius: 5px;
   left: calc(100vw - 285px);
 }
-
+.show-property-box{
+  display: block;
+}
 * {
   user-select: none;
 }
@@ -203,7 +205,7 @@
   right: 0;
   background: #263238;
   color: #fff;
-  width: 55px;
+  width: 45px;
   display: flex;
   flex-direction: column;
   padding: 15px 10px;
