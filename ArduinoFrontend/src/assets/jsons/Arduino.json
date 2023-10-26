@@ -1,0 +1,198 @@
+{
+  "name": "Arduino UNO R3",
+  "className": "ArduinoUno",
+  "pointHalf": 4,
+  "pins": [
+    {
+      "x": 182,
+      "y": 26,
+      "name": "AREF"
+    },
+    {
+      "x": 198,
+      "y": 26,
+      "name": "GND"
+    },
+    {
+      "x": 212,
+      "y": 26,
+      "name": "D13"
+    },
+    {
+      "x": 226,
+      "y": 26,
+      "name": "D12"
+    },
+    {
+      "x": 240,
+      "y": 26,
+      "name": "D11"
+    },
+    {
+      "x": 254,
+      "y": 26,
+      "name": "D10"
+    },
+    {
+      "x": 270,
+      "y": 26,
+      "name": "D9"
+    },
+    {
+      "x": 284,
+      "y": 26,
+      "name": "D8"
+    },
+    {
+      "x": 308,
+      "y": 26,
+      "name": "D7"
+    },
+    {
+      "x": 322,
+      "y": 26,
+      "name": "D6"
+    },
+    {
+      "x": 336,
+      "y": 26,
+      "name": "D5"
+    },
+    {
+      "x": 350,
+      "y": 26,
+      "name": "D4"
+    },
+    {
+      "x": 364,
+      "y": 26,
+      "name": "D3"
+    },
+    {
+      "x": 378,
+      "y": 26,
+      "name": "D2"
+    },
+    {
+      "x": 394,
+      "y": 26,
+      "name": "TX0"
+    },
+    {
+      "x": 408,
+      "y": 26,
+      "name": "RX0"
+    },
+    {
+      "x": 234,
+      "y": 300,
+      "name": "RESET"
+    },
+    {
+      "x": 248,
+      "y": 300,
+      "name": "3.3V"
+    },
+    {
+      "x": 264,
+      "y": 300,
+      "name": "5V"
+    },
+    {
+      "x": 278,
+      "y": 300,
+      "name": "GND"
+    },
+    {
+      "x": 292,
+      "y": 300,
+      "name": "GND"
+    },
+    {
+      "x": 306,
+      "y": 300,
+      "name": "VIN"
+    },
+    {
+      "x": 336,
+      "y": 300,
+      "name": "A0"
+    },
+    {
+      "x": 350,
+      "y": 300,
+      "name": "A1"
+    },
+    {
+      "x": 364,
+      "y": 300,
+      "name": "A2"
+    },
+    {
+      "x": 378,
+      "y": 300,
+      "name": "A3"
+    },
+    {
+      "x": 392,
+      "y": 300,
+      "name": "A4"
+    },
+    {
+      "x": 408,
+      "y": 300,
+      "name": "A5"
+    }
+  ],
+  "draw": [
+    {
+      "type": "image",
+      "url": "assets/images/components/ArduinoUno.svg",
+      "width": 456,
+      "height": 334,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "rectangle",
+      "width": 13,
+      "height": 7,
+      "x": 202,
+      "y": 81,
+      "radius": 0,
+      "fill": "rgba(255,255,0,0.38297873)"
+    },
+    {
+      "type": "rectangle",
+      "width": 13,
+      "height": 7,
+      "x": 380,
+      "y": 108,
+      "radius": 0,
+      "fill": "rgba(0,255,0,0.38297873)"
+    }
+  ],
+  "simulation": {},
+  "info": {
+    "name": "Arduino UNO R3",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Arduino_Uno_006.jpg",
+    "Datasheet": "https://www.farnell.com/datasheets/1682209.pdf",
+    "description": "This is the Arduino Uno R3. In addition to all the features of the previous board, the Uno now uses an ATmega16U2 instead of the 8U2 found on the Uno (or the FTDI found on previous generations). This allows for faster transfer rates and more memory. No drivers needed for Linux or Mac (inf file for Windows is needed and included in the Arduino IDE), and the ability to have the Uno show up as a keyboard, mouse, joystick, etc.",
+    "properties": {
+      "Microcontroller": "ATMega328P",
+      "Operating Voltage": "5V",
+      "Input Voltage(limits)": "6-20V(limits)",
+      "Input Voltage(recommended)": "7V to 12V(recommended)",
+      "DC Current per I/O Pin": "40 mA",
+      "DC Current for 3.3V Pin": "50 mA",
+      "Digital Pins": "14(of which 6 provide PWM output)",
+      "Analog Pins": "6",
+      "Flash Memory": "32KB of which 0.5 KB used by bootloader",
+      "SRAM": "2KB(ATmega328)",
+      "Clock Speed": "16MHz",
+      "EEPROM": "1 KB (ATmega328)",
+      "LED": "Inbuilt",
+      "isBreadBoardPlaceable" : 0
+    }
+  }
+}

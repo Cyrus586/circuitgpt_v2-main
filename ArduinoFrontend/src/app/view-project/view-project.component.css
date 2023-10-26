@@ -1,0 +1,12 @@
+.data-body div {
+  font-weight: bold;
+}
+.data-body label {
+  font-weight: normal;
+}
+.data-body button {
+  margin: 15px 15px 15px 0;
+}
+.data-body button i {
+  color: white;
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Ultrasonic Distance Sensor",
+    "className": "UltrasonicSensor",
+    "pins": [
+        {
+            "x": 75,
+            "y": 100,
+            "name": "VCC"
+        },
+        {
+            "x": 90,
+            "y": 100,
+            "name": "TRIG"
+        },
+        {
+            "x": 105,
+            "y": 100,
+            "name": "ECHO"
+        },
+        {
+            "x": 120,
+            "y": 100,
+            "name": "GND"
+        }
+    ],
+    "pointHalf": 4,
+    "draw": [
+        {
+            "type": "image",
+            "url": "assets/images/components/UltrasonicSensor.svg",
+            "width": 203,
+            "height": 103.5,
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "simulation": {},
+    "info": {
+        "name": "Ultrasonic Sensor HC-SR04",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/HC_SR04_Ultrasonic_sensor_1480322_3_4_HDR_Enhancer.jpg/640px-HC_SR04_Ultrasonic_sensor_1480322_3_4_HDR_Enhancer.jpg",
+        "Datasheet": "https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf",
+        "description": "HC-SR04 Ultrasonic (US) sensor is a 4 pin module, whose pin names are Vcc, Trigger, Echo and Ground respectively. This sensor is a very popular sensor used in many applications where measuring distance or sensing objects are required. The module has two eyes like projects in the front which forms the Ultrasonic transmitter and Receiver.",
+        "properties": {
+            "Operating voltage": "+5V",
+            "Theoretical  Measuring Distance": "2cm to 450cm",
+            "Practical Measuring Distance": "2cm to 80cm",
+            "Accuracy": "3mm",
+            "Measuring angle covered": "<15°",
+            "Operating Current": "<15mA",
+            "Operating Frequency": "40Hz",
+            "isBreadBoardPlaceable" : 1 
+        }
+    }
+}

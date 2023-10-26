@@ -1,0 +1,57 @@
+<app-header title="Arduino on Cloud" color="cornflowerblue"></app-header>
+
+<div style="overflow: hidden;max-width:100vw;">
+  <div class="row" *ngIf="data" style="margin-top: 1em;">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <h2 style="margin-left: 1em;">{{data.name}}</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-7">
+          <div style="display: flex;">
+            <img style="max-width: 100%;margin: auto auto;" src="{{data.base64_image}}" alt="{{data.name}}">
+          </div>
+        </div>
+        <div class="col-md-5 data-body" style="padding-left: 30px;">
+          <h3 style="font-family: cursive;">Description</h3>
+          <p>{{data.description}}</p>
+          <button mat-raised-button color="primary" [routerLink]="['/simulator']"
+            [queryParams]="{id: data.save_id,version: data.version,branch: data.branch,offline: false}">
+            Run Simulation</button>
+          <div style="margin-top: 100px;"></div>
+          <div>Author Name: <label>{{data.owner}}</label></div>
+          <div>Created At: <label>{{data.save_time}}</label></div>
+          <div>Edited At: <label>{{data.create_time}}</label></div>
+
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{shareURL}}" target="_blank">
+            <button mat-mini-fab color="primary" matTooltip="Share it on Facebook">
+              <i class="fab fa-facebook-f" style="font-size: medium;"></i>
+            </button>
+          </a>
+
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url={{shareURL}}" target="_blank">
+            <button mat-mini-fab style="background-color: #0080FF;" matTooltip="Share it on Linked In">
+              <i class="fab fa-linkedin-in" style="font-size: x-large;"></i>
+            </button>
+          </a>
+
+          <a href="http://www.reddit.com/submit?url={{shareURL}}&title={{shareName}}" target="_blank">
+            <button mat-mini-fab style="background-color: #ff4500;" matTooltip="Share it on Reddit">
+              <i class='fab fa-reddit-alien' style='font-size:24px;'></i>
+            </button>
+          </a>
+          <a href="mailto:?subject={{shareName}}&body={{shareURL}}" target="_blank">
+            <button mat-mini-fab style="background-color: black;" matTooltip="Share it with Mail">
+              <i class="fa fa-envelope" style="font-size: medium;"></i>
+            </button>
+          </a>
+          <button mat-mini-fab style="background-color: black;" matTooltip="Copy Sharing URL">
+            <i class="fa fa-share-alt" style="font-size: medium;"></i>
+          </button>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>

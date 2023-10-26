@@ -1,0 +1,53 @@
+{
+  "name": "Motor",
+  "className": "Motor",
+  "pins": [
+    {
+      "x": 24,
+      "y": 51,
+      "name": "Negative"
+    },
+    {
+      "x": 40,
+      "y": 51,
+      "name": "Positive"
+    }
+  ],
+  "pointHalf": 4,
+  "draw": [
+    {
+      "type": "image",
+      "url": "assets/images/components/Motor.svg",
+      "width": 69,
+      "height": 56,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "image",
+      "url": "assets/images/components/MotorAbove.svg",
+      "width": 21,
+      "height": 21,
+      "x": 24,
+      "y": 17.5
+    }
+  ],
+  "simulation": {},
+  "info": {
+    "name": "Motor",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/DC_Motor.jpg",
+    "description": "A normal DC motor would have only two terminals. Since these terminals are connected together only through a coil they have not polarity. Revering the connection will only reverse the direction of the motor.",
+    "properties": {
+      "Type": "DC Motor",
+      "Operating Voltage": "4.5V to 9V",
+      "Recommended/Rated Voltage": "6V",
+      "Current at No load": "70mA (max)",
+      "No-load Speed": " 9000 rpm",
+      "Loaded current": "250mA (approx)",
+      "Rated Load": "10g*cm",
+      "Motor Size": "27.5mm x 20mm x 15mm",
+      "Weight": "17 grams",
+      "isBreadBoardPlaceable" : 1 
+    }
+  }
+}

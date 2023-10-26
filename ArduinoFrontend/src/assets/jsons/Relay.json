@@ -1,0 +1,61 @@
+{
+  "name": "Relay Module",
+  "className": "RelayModule",
+  "pins": [
+    {
+      "x": 33,
+      "y": 18,
+      "name": "Normally Closed"
+    },
+    {
+      "x": 56,
+      "y": 18,
+      "name": "COMMON"
+    },
+    {
+      "x": 81,
+      "y": 18,
+      "name": "Normally Open"
+    },
+    {
+      "x": 54,
+      "y": 197,
+      "name": "SIG"
+    },
+    {
+      "x": 68,
+      "y": 197,
+      "name": "VCC"
+    },
+    {
+      "x": 84,
+      "y": 197,
+      "name": "GND"
+    }
+  ],
+  "pointHalf": 5,
+  "draw": [
+    {
+      "type": "image",
+      "url": "assets/images/components/1ChannelRelay.svg",
+      "width": 118,
+      "height": 204,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "simulation": {},
+  "info": {
+    "name": "Relay Module 4-Channel",
+    "image": "https://cdn.sparkfun.com//assets/parts/1/1/4/0/5/13815-04a.jpg",
+    "description": "The 4 Channel Relay Module is a convenient board which can be used to control high voltage, high current load such as motor, solenoid valves, lamps and AC load. It is designed to interface with microcontroller such as Arduino, PIC and etc. The relays terminal (COM, NO and NC) is being brought out with screw terminal. It also comes with a LED to indicate the status of relay.",
+    "Datasheet": "https://www.curtocircuito.com.br/datasheet/modulo/rele-1canal.pdf",
+    "properties": {
+      "channel": "4",
+      "Rated through-current": "10A (NO) 5A (NC)",
+      "Control signal": "TTL level",
+      "Max. switching current": "10A",
+      "isBreadBoardPlaceable" : 1 
+    }
+  }
+}

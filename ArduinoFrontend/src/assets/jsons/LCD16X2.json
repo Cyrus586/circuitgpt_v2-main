@@ -1,0 +1,124 @@
+{
+    "name": "LCD 16x2",
+    "className": "LCD16X2",
+    "pointHalf": 3,
+    "pins": [
+        {
+            "x": 39,
+            "y": 5,
+            "name": "GND"
+        },
+        {
+            "x": 54,
+            "y": 5,
+            "name": "VCC"
+        },
+        {
+            "x": 69,
+            "y": 5,
+            "name": "V0"
+        },
+        {
+            "x": 84,
+            "y": 5,
+            "name": "RS"
+        },
+        {
+            "x": 99,
+            "y": 5,
+            "name": "RW"
+        },
+        {
+            "x": 114,
+            "y": 5,
+            "name": "E"
+        },
+        {
+            "x": 129,
+            "y": 5,
+            "name": "DB0"
+        },
+        {
+            "x": 144,
+            "y": 5,
+            "name": "DB1"
+        },
+        {
+            "x": 159,
+            "y": 5,
+            "name": "DB2"
+        },
+        {
+            "x": 174,
+            "y": 5,
+            "name": "DB3"
+        },
+        {
+            "x": 189,
+            "y": 5,
+            "name": "DB4"
+        },
+        {
+            "x": 204,
+            "y": 5,
+            "name": "DB5"
+        },
+        {
+            "x": 219,
+            "y": 5,
+            "name": "DB6"
+        },
+        {
+            "x": 234,
+            "y": 5,
+            "name": "DB7"
+        },
+        {
+            "x": 249,
+            "y": 5,
+            "name": "LED ANODE(+VE)"
+        },
+        {
+            "x": 264,
+            "y": 5,
+            "name": "LED CATHODE(-VE)"
+        }
+    ],
+    "draw": [
+        {
+            "type": "image",
+            "url": "assets/images/components/LCD16X2.svg",
+            "width": 476,
+            "height": 210,
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "simulation": {},
+    "data": {
+        "barColor": "#A0C533",
+        "barGlowColor": "#000000",
+        "columns": 16,
+        "rows": 2,
+        "gridRows": 8,
+        "gridColumns": 5,
+        "gridWidth": 3,
+        "gridHeight": 3,
+        "interSpacing": 5,
+        "intraSpacing": 0.5,
+        "startX": 75,
+        "startY": 78
+    },
+    "info": {
+        "name": "LCD(16X8)",
+        "image": "https://commons.wikimedia.org/wiki/File:16x2_Character_LCD_Display.jpg",
+        "description": "LCD modules are very commonly used in most embedded projects, the reason being its cheap price, availability and programmer friendly. Most of us would have come across these displays in our day to day life, either at PCO’s or calculators. The appearance and the pinouts have already been visualized above now let us get a bit technical.",
+        "properties": {
+            "Operating Voltage": "4.7V to 5.3V",
+            "Current consumption": "1mA (without backlight)",
+            "Work Mode": " 8-bit and 4-bit mode",
+            "Voltage Rated": "3V-5V",
+            "isBreadBoardPlaceable" : 1 
+        }
+    }
+}
